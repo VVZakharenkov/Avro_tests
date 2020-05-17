@@ -1,0 +1,10 @@
+{"namespace": "testext.avro",
+ "type": "record",
+ "name": "userInfo",
+ "fields": [
+     {"name": "USER_521", "type": "string"},
+     {"name": "Last_Name",  "type": "string"},
+     {"name": "First_Name", "type": "string"},
+	 {"name": "Attributes", "type": {"type": "array", "items": "long"}}
+ ]
+}

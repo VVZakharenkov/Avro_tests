@@ -1,5 +1,5 @@
 import csv
-import avro.schema
+import avro
 from avro.io import DatumReader, DatumWriter
 from avro.datafile import DataFileReader, DataFileWriter
 

@@ -8,5 +8,6 @@ schema = reader.datum_reader.writer_schema
 print(schema)
 dict = json.loads(reader.meta.get('avro.schema').decode('utf-8'))
 for user in reader:
-    print(user)
+    for k, v in user.items():
+        print(k, v)
 reader.close()
